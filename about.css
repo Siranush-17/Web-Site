@@ -1,0 +1,161 @@
+
+.aboutImg{
+    width: 100%;
+    background-image: url("./pageImg/Tips\ to\ Make\ Sales\ Meetings\ Meaningful\ Instead\ of\ Meaningless.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.aboutFon{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(54,78,100,0.5);
+}
+.aboutText{
+    padding:100px 0 ;
+}
+.te1{
+    padding: 20px 0;
+    font-size:35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFB606;
+}
+.paragraf{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.paragraf>a{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.parinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.click{
+    display: flex;
+    margin-top: 40px;
+}
+.info{
+    padding: 120px 0;
+    width: 50%;   
+    line-height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.infoText{
+    padding: 30px 0;
+}
+.infoImg{
+    width: 387px;
+    height: 535px;
+    background-image: url("http://irsfoundation.com/tf/html/erudition-preview/erudition/assets/img/about/about-left-thumb.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: translateY(85px);
+}
+.OnlCours{
+    width: 100%;
+    display: flex;
+}
+.yellowOne{
+    width: 15%;
+    height: 200px;
+    background-color: #FFB606;
+}
+.blackOne{
+    width: 15%;
+    height: 200px;
+    background-color: #202020;
+}
+.yellowTwo{
+    width: 40%;
+    height: 200px;
+    background-color: #FFB606;
+}
+.yellowThree{
+    width: 0;
+	height: 0;
+	border-bottom: 200px solid #FFB606; 
+	border-right: 200px solid transparent;	
+}
+.onl{
+    display: flex;
+}
+.blacktwo{
+    width: 0;
+	height: 0;
+	border-top: 200px solid #202020; 
+	border-left: 200px solid transparent;
+}
+.blackTree{
+    width: 40%;
+    height: 200px;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.yellowText{
+    padding: 30px 0;
+    color: white;
+    font-size: 27px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.yearText{
+    width: 90%;
+    line-height: 25px;
+    padding-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eduYearPar{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.parSquare{
+    display: flex;
+    padding: 20px 0;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background-color:#FFB606 ;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    z-index: 1;
+}
+.gic{
+    width: 100px;
+    height: 3px;
+    background-color: gainsboro;
+    transform: translateY(39px);
+}
+.blackfon{
+    background-color:#202020 ;
+}
+.squareText{
+    text-align: center;
+    margin-top: 25px; 
+    transform: rotate(-45deg);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.yearImg{
+    width: 90%;
+    height: 450px;
+    background-image: url("http://irsfoundation.com/tf/html/erudition-preview/erudition/assets/img/bg/edu-right-thumb.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+.aboutsectionTwo{
+    padding: 0px  ;
+}
+
+
+
+
+
+

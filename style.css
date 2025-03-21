@@ -1,0 +1,644 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Open sans-serif;
+}
+header{
+    background-color:#141414;
+    padding: 0px 25px;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    color: white;
+}
+.leftNavbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    display: flex;
+    position: relative;
+}
+
+.logoImg{
+    background-color: #99823D;
+    padding: 43px 68px;
+    position: absolute;
+    transform: translateY(-26px);
+    z-index: 5;
+}
+.navbar-links {
+    width: 72%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.links  {
+    list-style: none;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.links:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.headerDown{
+    width: 978px;
+    height: 591px;
+    background-image: url("./img/IMAGE\ \(1\).png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.title{
+    width: 550px;
+    padding: 86px 68px;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    left: 700px;
+    z-index: 5;
+    
+}
+.title h4{
+    color: #99823D;
+}
+.title h1{
+    font-size: 40px;
+    padding: 9px 0;
+}
+.title p{
+    padding:20px 0px;
+    letter-spacing: 1px;
+}
+.headerBtn{
+    width: 200px;
+    padding: 16px 60px;
+    border: transparent;
+    background-color: #141414;
+    color: white;
+    cursor: pointer;
+}
+
+.section{
+    width: 100%;
+    padding: 100px 10px 0px 10px;
+    background-color: #EBEBEB;
+}
+
+.main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main1{
+    width: 500px;
+   
+}
+.about {
+    color: rgb(182, 144, 74);
+}
+
+.main2 {
+    width: 300px;
+}
+
+.tver {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.projects div{
+    text-align: center;
+    line-height: 40px;
+}
+
+.projects div h5{
+    color: #99823D;
+}
+.projects div h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    gap: 50px;
+}
+
+.img1{
+    width: 400px;
+}
+
+.room {
+   display: flex;
+   justify-content: space-around;
+   gap: 50px;
+}
+
+.room1 {
+    width: 400px;
+    height: 300px;
+    position: relative;
+
+}
+.roomImg1{
+    background-image: url('./img/IMAGE\ \(1\).png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.roomImg2{
+    background-image: url('./img/IMAGE\ \(7\).png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.roomImg3{
+    background-image: url('./img/IMAGE\ \(8\).png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.house {
+  background-color: #141414;
+  width: 90%;
+  padding: 20px;
+  color: white;
+  z-index: 5;
+  position: absolute;
+  top: 235px;
+}
+.text{
+    width: 25%;
+    padding: 20px;
+    background-color: #141414;
+    color: white;
+}
+.room{
+    padding: 100px 20px;
+}
+.but{
+   width: 40%;
+   height: 100px;
+   background-color: #99823D;
+   position: absolute;
+   left: 200px;
+   text-align: center;
+}
+.service {
+    text-align: center;
+    color:#99823D;
+    margin-top: 100px;
+}
+
+.architectur {
+    text-align: center;
+}
+
+.big-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 140px;
+}
+.sericeSection{
+    padding: 50px;
+    background-color: white;
+}
+
+.small-div {
+    width: 250px;
+    height: 150px;
+    padding: 50px 0px 0px 50px;
+    
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    color: #99823D;
+    margin-bottom: 20px;
+}
+
+.butt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.but1 {
+    width: 300px;
+    height: 50px;
+    background-color: #99823D;
+    color: white;
+    border: 0;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btcolor{
+  background-color: #99823D;
+}
+.background{
+    width: 489px;
+    height: 329px;
+    background-color: #99823D;
+    position: absolute;
+    top: 320px;
+    left: 835px;
+}
+.socialPageLink{
+    width: 835px;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 340px 20px 30px;
+}
+.socialPageLink a{
+   text-decoration: none;
+   color: #141414;
+}
+
+footer{
+    background-color: #EBEBEB;
+    position: relative;
+}
+.foterLinks{
+    padding-top: 30px;
+    width: 35%;
+}
+.footerNavbar{
+    width: 92%;
+    height: 272px;
+    background-color: #555;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 5% 0px 20px;
+}
+.compny{
+    padding: 50px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.black{
+    width: 100%;
+    height: 230px;
+    background-color: #141414;
+    position: absolute;
+    top: 250px;
+
+    
+}
+.contactUs{
+    width: 87%;
+    height: 204px;
+    align-items: center;
+    background-color: #99823D;
+    margin: 0 auto;
+    transform: translateY(-20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.contactUsChild{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.inputEmail{
+   width: 840px;
+   height: 68px;
+   padding-left: 40px;
+}
+.emailBtn{
+    height: 67px;
+    width: 115px;
+    border: transparent;
+    background-color: #141414;
+    color: white;
+    margin-left: 1%;
+    cursor: pointer;
+}
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .logoImg{
+        width: 100px;
+        height: 50px;
+        position: relative;
+        overflow: hidden;
+    }
+    .img{
+        width: 100px;
+        transform: translateX(-50px);
+    }
+
+   .headerDown{
+     width: 550px;
+     height: 380px;
+   }
+    
+   .title{
+    width: 350px;
+    padding: 30px 20px;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    left: 300px;
+    z-index: 5;
+    
+}
+.title h4{
+    color: #99823D;
+}
+.title h1{
+    font-size: 20px;
+    padding: 9px 0;
+}
+.title p{
+    padding:20px 0px;
+    letter-spacing: 1px;
+}
+
+.headerBtn{
+    width: 100px;
+    padding: 15px 10px;
+}
+.background{
+    width: 320px;
+    height: 200px;
+    background-color: #99823D;
+    position: absolute;
+    top: 216px;
+    left: 420px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 400px ;
+    padding-top: 150px;
+    align-items: center;
+    justify-content: center;
+
+}
+.but1{
+    justify-content: center;
+    align-items: center;
+}
+
+.room{
+    flex-wrap: wrap;
+}
+.main{
+    flex-wrap: wrap;
+    padding: 30px  20px;
+}
+.main2{
+    padding: 50px 0;
+}
+
+
+.socialPageLink{
+    width: 420px;
+    padding: 10px 15px 9px 15px;
+}
+   
+    .toggle-button {
+        display: flex;
+        font-size: 40px;
+        color: #99823D;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+   
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links {
+        text-align: center;
+    }
+
+    .links a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+
+.compny{
+ display: grid;
+ grid-template-columns: 200px 200px  ;
+ row-gap: 30px;
+}
+.black{
+    top: 370px;
+}
+.contactUs{
+    width: 87%;
+    height: 150px;  
+}
+.footImg .img{
+    transform: none;
+}
+.inputEmail{
+   width: 400px;
+   height: 50px;
+   padding-left: 20px;
+}
+.emailBtn{
+    height: 49px;
+    width:50%;
+}
+
+.liclass{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+}
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .logoImg{
+        width: 100px;
+        height: 50px;
+        position: relative;
+        overflow: hidden;
+    }
+    .img{
+        width: 100px;
+        transform: translateX(-50px);
+    }
+
+   .headerDown{
+     width: 370px;
+     height: 380px;
+   }
+    
+   .title{
+    width: 350px;
+    padding: 30px 20px;
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    left: 80px;
+    z-index: 5;
+    
+}
+.title h4{
+    color: #99823D;
+}
+.title h1{
+    font-size: 20px;
+    padding: 9px 0;
+}
+.title p{
+    padding:20px 0px;
+    letter-spacing: 1px;
+}
+
+.headerBtn{
+    width: 100px;
+    padding: 15px 10px;
+}
+.background{
+    width: 200px;
+    height: 200px;
+    background-color: #99823D;
+    position: absolute;
+    top: 216px;
+    left: 270px;
+}
+
+.socialPageLink{
+    width: 270px;
+    padding: 9px 5px 9px 5px;
+}
+   
+    .toggle-button {
+        display: flex;
+        font-size: 40px;
+        color: #99823D;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+   
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links {
+        text-align: center;
+    }
+
+    .links a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .black{
+        top: 370px;
+    }
+    .contactUs{
+        width: 87%;
+        height: 150px;  
+    }
+    .footImg .img{
+        transform: none;
+    }
+    .inputEmail{
+       width: 250px;
+       height: 50px;
+       padding-left: 10px;
+    }
+    .emailBtn{
+        height: 49px;
+        width:50%;
+    }
+}
+
+
+.liclass{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
